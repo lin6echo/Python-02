@@ -4,6 +4,14 @@
 
 # Data structuer
 
+# list is mutable
+
+amazon_cart = ['notebook', 'sunglasses']
+amazon_cart[0] = 'laptop'
+print(amazon_cart)
+
+# List slicing
+
 amazon_cart =   [   'notebooks', 
                     'sunglasses',
                     'toys',
@@ -11,11 +19,4 @@ amazon_cart =   [   'notebooks',
                 ]
 print(amazon_cart)
 print(amazon_cart[0:2])
-
-# list is mutable
-
-amazon_cart[0] = 'laptop'
-print(amazon_cart)
-
-# List slicing
 
