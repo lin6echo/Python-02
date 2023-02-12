@@ -2,7 +2,7 @@ class PlayerCharacter:
     # Class Object Attribute
     membership = True
     def __init__(self, name, age):
-        if (PlayerCharacter.membership):
+        if (age > 18):
             self.name = name        # attributes
             self.age = age
 
